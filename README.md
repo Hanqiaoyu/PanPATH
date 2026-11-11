@@ -2,8 +2,7 @@
 
 **Patient-state-aware clinical reasoning for streamlining pancreatic diagnostic pathways**
 
-PanPATH is a framework designed to streamline sequential diagnostic workflows for patients with suspected pancreatic tumors. It adapts diagnostic reasoning and examination selection to evolving patient information while considering the potential burden of further testing.
-
+PanPATH is a framework designed to streamline sequential diagnostic workflows for patients with suspected pancreatic tumors. 
 ## Overview
 
 - **Patient-state-aware reasoning** 
@@ -20,10 +19,6 @@ python main.py --help
 ```
 
 Running the pipeline requires the accompanying project modules, an appropriate configuration file (`configs/setting.yaml`), configured LLM access, and authorized structured clinical data. Runtime options are defined in the main script.
-
-## Outputs
-
-Depending on the configuration, PanPATH generates diagnostic replay records, patient-level evaluation summaries, and computational usage statistics.
 
 ## Data and responsible use
 
